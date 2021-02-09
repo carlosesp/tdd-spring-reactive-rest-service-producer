@@ -79,8 +79,8 @@
                 <version>3.0.1</version>
                 <extensions>true</extensions>
                 <configuration>
-                    <testFramework>JUNIT5</testFramework>
-                    <testMode>WEBTESTCLIENT</testMode>
+                    <baseClassForTests>pe.carlosesp.demo.tdd.BaseClass</baseClassForTests>
+                    <testMode>EXPLICIT</testMode>
                 </configuration>
             </plugin>
             <plugin>
